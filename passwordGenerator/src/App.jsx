@@ -37,6 +37,37 @@ function App() {
           <button className='outline-none bg-[#A0522D] text-white px-3 py-1 shrink-0 hover:bg-gray-700 hover:text-white'>Copy</button>
 
         </div>
+        <div className='flex text-sm gap-x-2'>
+          <div className='flex items-center gap-x-1'>
+            <input 
+            type="range"
+            min={6}
+            max={100}
+            value={length}
+            className='cursor-pointer'
+            onChange={(e)=>{setLength(e.target.value)}}
+             />
+             <label className='text-black'>Length: {length}</label>
+          </div>
+          <div className='flex items-center gap-x-1'>
+            <input 
+            type="checkbox"
+            defaultChecked={number}
+            id='numberInput'
+            onChange={(e)=>{setNumber((prev) => !prev)}}
+             />
+             <label className='text-black' htmlFor='numberInput'>Numbers</label>
+          </div>
+          <div className='flex items-center gap-x-1'>
+            <input 
+            type="checkbox"
+            defaultChecked={char}
+            id='charInput'
+            onChange={(e)=>{setChar((prev => !prev))}}
+             />
+             <label className='text-black' htmlFor='charInput'>Characters</label>
+          </div>
+        </div>
       </div>
     </>
   )
