@@ -25,7 +25,7 @@ function App() {
   }
 
   return (
-    <div className='w-full h-screen justify-center bg-cover flex flex-wrap items-center bg-no-repeat' style={{backgroundImage: `url('https://images.pexels.com/photos/7708811/pexels-photo-7708811.jpeg?auto=compress&cs=tinysrgb&w=800')`}}>
+    <div className='w-full h-screen justify-center bg-cover flex flex-wrap items-center bg-no-repeat' style={{backgroundImage: `url('https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=800')`}}>
       <div className='w-full'> 
         <div className='w-full max-w-md mx-auto backdrop-blur-sm rounded-xl p-5 border border-gray-60 bg-white/30'>
           <form onSubmit={(e) => {e.preventDefault();
