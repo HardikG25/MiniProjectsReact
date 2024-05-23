@@ -9,11 +9,11 @@ export default function Home() {
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
-                            <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+                            <span className="hidden sm:block text-2xl"><span className="text-red-800">VACAY</span> is your partner for Vacations!</span>
                         </h2>
 
                         <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
+                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-red-800 rounded-lg hover:opacity-75"
                             to="/"
                         >
                             <svg
@@ -32,15 +32,17 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://i.pinimg.com/736x/c9/e9/63/c9e963e9f6eb2fee5bd4d01b4ae05c44.jpg" alt="image1" />
+                    <p className="ml-[105px] font-bold text-2xl mb-2">Hi there</p>
+                    <h1 className="ml-[30px] font-extrabold text-4xl">I'm Your <span className="text-red-800">Partner</span></h1>
                 </div>
             </aside>
 
-            <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+            <div className="grid  place-items-center sm:mt-10">
+                <img className="sm:w-96 w-48" src="https://i.pinimg.com/474x/4f/9d/ac/4f9dacbedc6b1aabcac87764283718ac.jpg" alt="image2" />
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            <h1 className="text-center text-2xl sm:text-2xl py-10 font-medium">Get ready to ditch the stress and embrace the adventure!</h1>
         </div>
     );
 }
