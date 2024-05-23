@@ -8,9 +8,8 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                            // src="https://i.pinimg.com/474x/0f/45/d6/0f45d651b7048600b1270b7a76c4394d.jpg"
-                            className="mr-2 h-12"
+                            src="https://i.pinimg.com/564x/e3/67/5c/e3675cada80321768f7a765fe34f9edc.jpg"
+                            className="mr-6 h-16"
                             alt="Logo"
                         />
                     </Link>
@@ -25,7 +24,7 @@ export default function Header() {
                             to="#"
                             className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
-                            Get started
+                            Let's Explore
                         </Link>
                     </div>
                     <div
