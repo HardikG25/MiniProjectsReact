@@ -22,7 +22,7 @@ export default function Header() {
                         </Link>
                         <Link
                             to="#"
-                            className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                            className="text-white bg-red-800 hover:bg-red-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Let's Explore
                         </Link>
@@ -36,7 +36,7 @@ export default function Header() {
                                 <NavLink
                                 to="/"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-orange-700" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-red-800" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-800 hover:font-extrabold lg:p-0`
                                     }
                                 >
                                     Home
@@ -46,7 +46,7 @@ export default function Header() {
                                 <NavLink
                                 to="/about"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 border-b ${isActive ? "text-orange-700" : "text-gray-500"} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 border-b ${isActive ? "text-red-800" : "text-gray-500"} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-800 hover:font-extrabold lg:p-0`
                                     }
                                 >
                                     About
@@ -56,7 +56,7 @@ export default function Header() {
                                 <NavLink
                                 to="/contact"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-orange-700" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-red-800" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-800 hover:font-extrabold lg:p-0`
                                     }
                                 >
                                     Contact Us
@@ -66,7 +66,7 @@ export default function Header() {
                                 <NavLink
                                 to="/github"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-orange-700" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 ${isActive ? "text-red-800" : "text-gray-500"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-800 hover:font-extrabold lg:p-0`
                                     }
                                 >
                                     GitHub
