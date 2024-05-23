@@ -7,22 +7,19 @@ export default function About() {
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                            src="https://i.pinimg.com/474x/76/38/f1/7638f13a3df3a4cf9e317312165b9b60.jpg"
                             alt="image"
                         />
                     </div>
                     <div className="md:7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                            React development is carried out by passionate developers
+                        <h2 className="text-2xl text-red-800 font-bold md:text-4xl">
+                        Dreaming of your next getaway?
                         </h2>
-                        <p className="mt-6 text-gray-600">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                        <p className="mt-6 text-black">
+                        <span className="font-extrabold">VACAY</span> an app that goes beyond just booking flights and hotels.  This vacation app would be your all-in-one travel companion, helping you craft the perfect itinerary based on your interests and budget. Discover hidden gems recommended by locals and fellow travelers, not just the usual tourist traps.
                         </p>
-                        <p className="mt-4 text-gray-600">
-                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                        <p className="mt-4 text-black">
+                        Stay organized with packing list suggestions, countdown timers that track flights and excursions, and a budget tracker that keeps you on course.  This app will  transform your trip from stressful planning to an unforgettable adventure!
                         </p>
                     </div>
                 </div>
