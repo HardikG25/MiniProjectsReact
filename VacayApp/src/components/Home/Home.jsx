@@ -13,7 +13,7 @@ export default function Home() {
                         </h2>
 
                         <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-red-800 rounded-lg hover:opacity-75"
+                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-red-800 rounded-lg hover:opacity-75 focus:ring-4 focus:ring-red-400 focus:outline-none"
                             to="/"
                         >
                             <svg
