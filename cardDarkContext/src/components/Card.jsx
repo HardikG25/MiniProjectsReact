@@ -62,6 +62,10 @@ export default function Card() {
                         5.0
                     </span>
                 </div>
+                <div className='text-center text-black dark:text-white pb-5'>
+                    <h1 className='text-sm font-semibold'>CERTIFIED POET</h1>
+                    <p className='text-sm pt-3 pb-1 text-gray-400'>Click On The Button Below To Follow.</p>
+                </div>
                 <div className="flex items-center justify-center">
                     <a
                         href="https://www.instagram.com/hired_shayar?igsh=NHZzOHdrM214aHRm&utm_source=qr"
